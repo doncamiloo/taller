@@ -1,0 +1,124 @@
+/* Estilo global para el cuerpo de la página */
+body {
+  background-color: #6C567B; /* Fondo de color naranja claro */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C06C84; /* Fondo de color blanco */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  width: 220%;
+}
+
+/* Estilo para el formulario */
+.form {
+  width: 100%;
+  text-align: left;
+  background-color: #F67280;
+}
+
+/* Estilo para los campos de entrada y etiquetas */
+label, p {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  color: #080200; /* Color de etiquetas en tonos de naranja */
+}
+
+input, select {
+  width: 60%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.details-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #F67280; /* Fondo blanco */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%; /* Establece el ancho de los detalles */
+  margin-left: 20px; /* Agrega espacio entre el formulario y los detalles */
+}
+.form-box {
+  background-color: #F67280; /* Fondo blanco */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%; /* Establece el ancho del formulario */
+}
+/* Estilo para el botón de calcular */
+button {
+  background-color: #ff5733; /* Color de botón en tono de naranja */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #6C567B; /* Color de botón en tono de naranja más oscuro al pasar el mouse */
+}
+
+/* Estilo para el cuadro de detalles de la persona y recomendaciones */
+.details-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo para los detalles de la persona */
+.details {
+  background-color: #F8B195; /* Fondo de color naranja claro */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Estilo para el encabezado h1 */
+h1 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+/* Estilo para las recomendaciones */
+.recomendacion {
+  font-weight: bold;
+  color: #ff5733; /* Color de recomendaciones en tonos de naranja */
+}
+
+/* Estilo para el pie de página */
+footer {
+  background-color: #6C567B;
+  color: #000000;
+  padding: 10px;
+}
